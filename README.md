@@ -2,8 +2,7 @@
 
 This is the official implementation of MIRAGE: Modelling Interpretable Multivariate Time Series Forecasts With Actionable Ground Explanations  _(under review at ICLR 2024)_.
 
-<!-- <img src="img\mirage_architecture.png" height = "400" alt="" align=center /> -->
-![Mirage Architecture](img\mirage_architecture.png)
+<img src="img\mirage_architecture.png" height = "400" alt="" align=center />
 
 ## Abstract
 Multi-variate Time Series (MTS) forecasting has made large strides (with very negligible errors) through recent advancements in neural networks, e.g., Transformers. However, in critical situations like predicting a death in an ICU or sudden gaming overindulgence; an accurate prediction without a contributing evidence is irrelevant. It is important to have model driven **Interpretability**, allowing proactive comprehension of trajectory to an extremity; and an associated **Explainability**, allowing for preventive steps; e.g., controlling BP to avoid death, or nudging players to take breaks to prevent overplay. We introduce a novel deep neural network, **MIRAGE**, which overcomes the inter-dependent challenges of (a) temporally non-smooth data trajectories for interpretability; (b) highly multi-dimensional temporal space for explainability; and (c) improving forecasting accuracy — all at once. MIRAGE: (i) achieves over **85% improvement** on the MSE of the forecasts on the most relevant SOM-VAE based SOTA networks; and (ii) unravels the intricate multi-variate relationships and temporal trajectories contributing to any sudden movement to criticalities on temporally chaotic datasets.
