@@ -785,6 +785,7 @@ class Mirage:
             + self.gamma * self.loss_commit
             + self.tau * self.loss_transition
             + self.eta * self.damp_prediction
+            + self.loss_forecasting
         )
 
         tf.summary.scalar("loss_rec", self.theta * self.loss_reconstruction_ze)
