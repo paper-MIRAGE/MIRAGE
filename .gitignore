@@ -9,7 +9,7 @@ sacred_runs_players_counters/
 models/
 
 # Notebooks
-notebook/
+# notebook/
 
 # Cache
 .DS_Store

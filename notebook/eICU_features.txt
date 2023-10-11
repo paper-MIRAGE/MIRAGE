@@ -1,0 +1,98 @@
+-bands
+-basos
+-eos
+-lymphs
+-monos
+-polys
+ALT (SGPT)
+AST (SGOT)
+BNP
+BUN
+Base Deficit
+Base Excess
+CPK
+CPK-MB
+Carboxyhemoglobin
+Fe
+Ferritin
+FiO2
+HCO3
+HDL
+Hct
+Hgb
+LDH
+LDL
+LPM O2
+MCH
+MCHC
+MCV
+MPV
+Methemoglobin
+O2 Content
+O2 Sat (%)
+PEEP
+PT
+PT - INR
+PTT
+Pressure Support
+RBC
+RDW
+Respiratory Rate
+TIBC
+TSH
+TV
+Temperature
+Total CO2
+Vancomycin - random
+Vancomycin - trough
+Vent Rate
+Vitamin B12
+WBC x 1000
+WBC's in urine
+albumin
+alkaline phos.
+ammonia
+anion gap
+bedside glucose
+bicarbonate
+calcium
+chloride
+creatinine
+direct bilirubin
+fibrinogen
+free T4
+glucose
+ionized calcium
+lactate
+lipase
+magnesium
+pH
+paCO2
+paO2
+phosphate
+platelets x 1000
+potassium
+prealbumin
+sodium
+total bilirubin
+total cholesterol
+total protein
+triglycerides
+troponin - I
+urinary creatinine
+urinary sodium
+urinary specific gravity
+temperature
+sao2
+heartrate
+respiration
+cvp
+systemicsystolic
+systemicdiastolic 
+systemicmean
+st1
+st2 
+st3
+noninvasivesystolic
+noninvasivediastolic
+noninvasivemean
