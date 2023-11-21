@@ -7,22 +7,9 @@ This is the official implementation of MIRAGE: Modelling Interpretable Multivari
     alt="Mirage Architecture" 
     style="height:400; margin-left:auto; margin-right:auto; display:block" 
 />
+<div style="display:table; margin-left:auto; margin-right:auto"><p style="font-size:14pt; font-family:Verdana">MIRAGE Architecture</p></div>
   
 <br>
-
-<img 
-    src="img\equation1.png" 
-    alt="DPSOM Loss" 
-    style="height:20; margin-left:auto; margin-right:auto; display:block" 
-/>
-
-<img 
-    src="img\equation2.png" 
-    alt="Mirage Loss" 
-    style="height:20; margin-left:auto; margin-right:auto; display:block" 
-/>
-
-**Note:** Losses as a part of ![DPSOM Loss](img/loss_dpsom.png) and the ![Smoothness Loss](img/loss_smoothness.png) are as discussed in [T-DPSOM](https://dl.acm.org/doi/10.1145/3450439.3451872)
 
 ## Abstract
 Multi-variate Time Series (MTS) forecasting has made large strides (with very negligible errors) through recent advancements in neural networks, e.g., Transformers. However, in critical situations like predicting a death in an ICU or sudden gaming overindulgence; an accurate prediction without a contributing evidence is irrelevant. It is important to have model driven **Interpretability**, allowing proactive comprehension of trajectory to an extremity; and an associated **Explainability**, allowing for preventive steps; e.g., controlling BP to avoid death, or nudging players to take breaks to prevent overplay. We introduce a novel deep neural network, **MIRAGE**, which overcomes the inter-dependent challenges of (a) temporally non-smooth data trajectories for interpretability; (b) highly multi-dimensional temporal space for explainability; and (c) improving forecasting accuracy — all at once. MIRAGE: (i) achieves over **85% improvement** on the MSE of the forecasts on the most relevant SOM-VAE based SOTA networks; and (ii) unravels the intricate multi-variate relationships and temporal trajectories contributing to any sudden movement to criticalities on temporally chaotic datasets.
